@@ -1,0 +1,44 @@
+{% extends 'task_group/base.html' %}
+{% load static %}
+{% block heading %}
+Add new Task to it <a href="/task_create/" ><img src="{% static 'task_group/img/plus.png' %}"></a>
+{% endblock %}
+
+
+{% block content %}
+{%for t in tasks %}
+                <div class="items">
+
+                    <div class="subitem">
+                        {% if t.done %}
+                       <p class="listitem1"><strike  >{{t.title}}</strike></p>
+                        {% else %}
+                        <p class="listitem">{{t.title}} </p>
+                        {% endif %}
+                        <p class="extra" > [{{t.Catagories}}]</p>
+                        <a href="/task_update/{{t.pk}}"  class="update"><img src="{% static 'task_group/img/pencil.png' %}" ></a>
+                        <a href="/task_delete/{{t.pk}}" ><img src="{% static 'task_group/img/trash.png' %}"></a>
+
+                    </div>
+                    <div class="subitem">
+                        {% if t.done %}
+                       <p class="complete_date">Created at : {{t.created_date}}</p>
+                        {% else %}
+                        <p class="li_style">Created at : {{t.created_date}}</p>
+                        {% endif %}
+                    </div>
+                    <br>
+                </div>
+{% endfor %}
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
