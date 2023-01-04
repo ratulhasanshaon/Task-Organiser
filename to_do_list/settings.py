@@ -25,7 +25,7 @@ SECRET_KEY = '!+-j=x=cp43(1zemha!yn-_m!9e%0awhx#cill4w!ki0a7s!or'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1','taskorganize.onrender.com']
 
 
 # Application definition
