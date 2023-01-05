@@ -11,9 +11,9 @@ Add new Task to it <a href="/task_create/" ><img src="{% static 'task_group/img/
 
                     <div class="subitem">
                         {% if t.done %}
-                       <p class="listitem1"><strike  >{{t.title}}</strike></p>
+                       <p class="listitem1"><strike  >{{t.pk}}. {{t.title}}</strike></p>
                         {% else %}
-                        <p class="listitem">{{t.title}} </p>
+                        <p class="listitem">{{t.pk}}. {{t.title}} </p>
                         {% endif %}
                         <p class="extra" > [{{t.Catagories}}]</p>
                         <a href="/task_update/{{t.pk}}"  class="update"><img src="{% static 'task_group/img/pencil.png' %}" ></a>

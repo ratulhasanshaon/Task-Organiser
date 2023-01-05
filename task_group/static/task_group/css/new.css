@@ -1,9 +1,14 @@
         body {
             height: 100vh;
             margin: 10px;
-            backhhground-image: url(https://images.pexels.com/photos/1291515/pexels-photo-1291515.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-            background-color: #000000;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23000000' cx='50' cy='0' r='50'/%3E%3Cg fill='%23050505' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23090909' cx='50' cy='100' r='50'/%3E%3Cg fill='%230d0d0d' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23111111' cx='50' cy='200' r='50'/%3E%3Cg fill='%23141414' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23161616' cx='50' cy='300' r='50'/%3E%3Cg fill='%23191919' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%231b1b1b' cx='50' cy='400' r='50'/%3E%3Cg fill='%231e1e1e' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%23202020' cx='50' cy='500' r='50'/%3E%3Cg fill='%23232323' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%23262626' cx='50' cy='600' r='50'/%3E%3Cg fill='%23282828' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%232b2b2b' cx='50' cy='700' r='50'/%3E%3Cg fill='%232d2d2d' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23303030' cx='50' cy='800' r='50'/%3E%3Cg fill='%23333333' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%23353535' cx='50' cy='900' r='50'/%3E%3Cg fill='%23383838' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%233b3b3b' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+            /* backhhground-image: url(https://images.pexels.com/photos/1291515/pexels-photo-1291515.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); */
+            /* background-color: #93F9B9; */
+            background: #16222A;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+            /* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23000000' cx='50' cy='0' r='50'/%3E%3Cg fill='%23050505' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23090909' cx='50' cy='100' r='50'/%3E%3Cg fill='%230d0d0d' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23111111' cx='50' cy='200' r='50'/%3E%3Cg fill='%23141414' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23161616' cx='50' cy='300' r='50'/%3E%3Cg fill='%23191919' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%231b1b1b' cx='50' cy='400' r='50'/%3E%3Cg fill='%231e1e1e' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%23202020' cx='50' cy='500' r='50'/%3E%3Cg fill='%23232323' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%23262626' cx='50' cy='600' r='50'/%3E%3Cg fill='%23282828' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%232b2b2b' cx='50' cy='700' r='50'/%3E%3Cg fill='%232d2d2d' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23303030' cx='50' cy='800' r='50'/%3E%3Cg fill='%23333333' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%23353535' cx='50' cy='900' r='50'/%3E%3Cg fill='%23383838' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%233b3b3b' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E"); */
             background-attachment: fixed;
             position: relative;
             background-size: cover;
@@ -20,7 +25,7 @@
         .title {
             float: left;
             position: static;
-            border-bottom: 2px double whitesmoke;
+            border-bottom: 2px double rgb(255, 255, 255);
             margin-right: 20px;
             margin-left:10px;
             display: flex;
@@ -28,7 +33,7 @@
         }
 
         .title-text {
-            color: rgb(201, 201, 201);
+            color: rgb(255, 255, 255);
             font-size: 30px;
             font-family: Bahnschrift;
         }
@@ -55,7 +60,7 @@
         }
 
         .left {
-            color: rgb(172, 44, 44);
+            color: rgb(102, 0, 0);
             display: flex;
             flex-direction: column;
             margin-right: 20px;
@@ -65,13 +70,13 @@
 
         .left-heading {
             font-size: 25px;
-            color: rgb(201, 201, 201);
+            color: rgb(255, 255, 255);
         }
 
         .motivation {
             max-width: 400px;
             font-size: 16px;
-            border-bottom: 1px solid rgb(201, 201, 201);
+            border-bottom: 1px solid rgb(255, 252, 252);
         }
 
         .tasklist {
@@ -87,17 +92,17 @@
         }
 
         .groups {
-            color: gray;
+            color: rgb(255, 255, 255);
             padding-left:20px;
             padding-right:20px;
 
         }
          a{text-decoration:none;
-         color: gray;}
+         color: rgb(255, 255, 255);}
 
         .groups-heading {
             font-size: 25px;
-            color: rgb(201, 201, 201);
+            color: rgb(255, 250, 250);
             padding-left: 20px;
         }
 
@@ -116,9 +121,9 @@
             width: 100%;
             font-size: 10px;
             letter-spacing: 2px;
-            font-weight: lighter;
-            background-color: rgb(46, 46, 46);
-            color: rgb(172, 172, 172);
+            font-weight: bold;
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
             text-align: center;
         }
 
@@ -133,12 +138,16 @@
             display: flex;
             flex-decoration:row;
             flex-wrap:wrap;
-            background-color: rgba(61, 61, 61, 0.301);
+            background: #2C3E50;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
             margin-bottom: 5px;
-            color: rgb(201, 201, 201);
-            font-size: 15px;
+            
+            font-size: 18px;
             justify-content:flex-end;
             width:100%;
+            
 
 
         }
@@ -148,20 +157,18 @@
         .addtask {
             display: flex;
             flex-direction: row;
-            border: 2px solid rgb(85, 85, 85);
+            border: 2px solid rgb(0, 0, 0);
             border-bottom: none;
             margin-bottom: 10px;
         }
 
 
-.listitem{
-margin-right:2px;
-margin-left:5px;}
+
 
 
 
 .extra{
-color: rgb(172, 44, 44);
+color: rgb(255, 255, 255);
 font-size:11px;
 padding-top:8px;
 padding-left:2px;
